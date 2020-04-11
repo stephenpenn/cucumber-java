@@ -6,6 +6,5 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     Then I should see my personalize home page
-    Then something else should happen
-    And something else should happen
+    
     
