@@ -12,6 +12,7 @@ import org.junit.Assert;
 // Then I should see my personalize home page
 // Then something else should happen
 // And something else should happen
+// And I should see my account number
 
 public class AuthenticationSteps {
 
@@ -32,6 +33,11 @@ public class AuthenticationSteps {
 
     @Then("^I should see my personalize home page$")
     public void i_should_see_my_personalize_home_page() throws Throwable {
+        Assert.assertEquals(true, true);
+    }
+    
+    @And("^I should see my account number$")
+    public void i_should_see_my_account_number() throws Throwable {
         Assert.assertEquals(true, true);
     }
 }
