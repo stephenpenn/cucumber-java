@@ -7,5 +7,4 @@ Feature:AuthenticationFeature
     And click Login
     Then I should see my personalize home page
     And I should see my account number
-    Then I should see my balance
     
