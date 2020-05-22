@@ -8,3 +8,9 @@ Feature:AuthenticationFeature
     Then I should see my personalize home page
     And I should see my account number
     
+    Scenario: NotImplementedPath
+    Given I have opened the application
+    When I put in valid credentials
+    And click Login
+    Then I should see my personalize home page
+    And Something else happens
