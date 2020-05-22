@@ -13,4 +13,4 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     Then I should see my personalize home page
-    And Something else happens
+    
