@@ -45,7 +45,7 @@ public class AuthenticationSteps {
     public void i_should_see_my_account_number() throws Throwable {
         Assert.assertEquals(true, true);
     }
-    @And("^And Something else happens$")
+    @And("^Something else happens$")
     public void and_something_else_happens() throws Throwable {
         Assert.assertEquals(true, true);
     }
