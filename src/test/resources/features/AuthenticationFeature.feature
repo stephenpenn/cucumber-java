@@ -13,5 +13,6 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     And this didn't work
+    And I should see my account number
     
     
