@@ -4,7 +4,7 @@ Coffee should not be served until the button has been pressed
 If there is no coffee left, then the money should be refunded
 
 Scenario: Buy Last Coffee
-  Given There are 1 Coffees left in the Machine
+  Given There are 1 Coffee left in the Machine
   And I have deposited $5
   And I previously have $100 in the bank
   When I press the coffee button
