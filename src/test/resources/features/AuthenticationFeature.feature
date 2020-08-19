@@ -15,5 +15,5 @@ Feature:AuthenticationFeature
     And this didn't work
     And I should see my account number
     And I this is an update
-    And That was a mistake
+  
     
