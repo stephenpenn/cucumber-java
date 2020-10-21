@@ -12,9 +12,7 @@ Feature:AuthenticationFeature
     Given I have opened the application
     When I put in valid credentials
     And click Login
-    And this didn't work
-    And I should see my account number
-    And I this is an update
-    And this is a simple demo
+    
+
   
     
