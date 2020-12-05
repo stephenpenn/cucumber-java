@@ -12,6 +12,7 @@ Feature:AuthenticationFeature
     Given I have opened the application
     When I put in valid credentials
     And click Login
+    Then This is a reference Test
 
     
 
