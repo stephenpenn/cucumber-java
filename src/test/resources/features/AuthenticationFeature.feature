@@ -13,7 +13,7 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     Then this is a test
-    Then This is another test
+    
     
     
 
