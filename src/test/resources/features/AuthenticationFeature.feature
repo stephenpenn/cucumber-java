@@ -13,6 +13,7 @@ Feature:AuthenticationFeature
     When I put in valid credentials
     And click Login
     Then I Verify That this works
+    Then this doesn't work
     
     
     
