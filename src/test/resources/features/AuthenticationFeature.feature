@@ -12,9 +12,7 @@ Feature:AuthenticationFeature
     Given I have opened the application
     When I put in valid credentials
     And click Login
-    Then I Verify That this works
-    Then this doesn't work
-    Then this happened
+   
     
     
     
