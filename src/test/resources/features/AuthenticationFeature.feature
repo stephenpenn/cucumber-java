@@ -14,6 +14,8 @@ Feature:AuthenticationFeature
     And click Login
     Then I Verify That this works
     Then this doesn't work
+    Then this happened
+    
     
     
     
